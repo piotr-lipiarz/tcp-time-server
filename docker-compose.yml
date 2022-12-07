@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+  tcp-time-server:
+    image: "piotrlipiarz/tcp-time-server"
+    ports:
+      - "7777:7777"
